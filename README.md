@@ -1,27 +1,38 @@
-# Scikit-Learn Intro Classification
+# ml-sklearn-intro-classification
 
-Projeto de estudo com notebook de introducao a classificacao usando Scikit-Learn e pequenos datasets CSV.
+Projeto introdutorio de classificacao supervisionada com Scikit-Learn, organizado como material de estudo para fundamentos de machine learning classico.
 
 ## Conteudo
 
-- `intro_classificacao.ipynb`: notebook principal do estudo.
-- `Dados/projects.csv`: dataset usado em exemplos de classificacao de projetos.
-- `Dados/precos.csv`: dataset usado em exemplos de classificacao e analise.
-- `Dados/tracking.csv`: dataset complementar usado no notebook.
+- `intro_classificacao.ipynb`: notebook principal com experimentos de classificacao.
+- `Dados/`: datasets pequenos usados nas aulas/experimentos.
+- `requirements.txt`: dependencias basicas.
 
-## Como executar
+## Objetivo
+
+O repositorio cobre conceitos fundamentais:
+
+- leitura e preparacao de dados;
+- separacao entre features e alvo;
+- treino de modelos supervisionados;
+- comparacao de previsoes;
+- avaliacao inicial de desempenho;
+- uso pratico da API do Scikit-Learn.
+
+## Como Executar
+
+Instale as dependencias:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
+```
+
+Abra o notebook:
+
+```bash
 jupyter notebook intro_classificacao.ipynb
 ```
 
-## Dependencias
+## Escopo
 
-As dependencias principais estao listadas em `requirements.txt`.
-
-## Nota de publicacao
-
-Este repositorio contem apenas o notebook e os datasets didaticos usados diretamente no estudo, sem arquivos temporarios do ambiente original.
+Este e um repositorio de fundamentos. Ele nao pretende ser uma aplicacao completa, mas sim um registro de aprendizado sobre classificacao e workflow basico de ML.
