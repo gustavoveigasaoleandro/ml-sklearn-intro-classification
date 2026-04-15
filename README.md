@@ -1,27 +1,27 @@
 # ml-sklearn-intro-classification
 
-Projeto introdutorio de classificacao supervisionada com Scikit-Learn, organizado como material de estudo para fundamentos de machine learning classico.
+Projeto introdutório de classificação supervisionada com Scikit-Learn, organizado como material de estudo para fundamentos de machine learning clássico.
 
-## Conteudo
+## Conteúdo
 
-- `intro_classificacao.ipynb`: notebook principal com experimentos de classificacao.
+- `intro_classificacao.ipynb`: notebook principal com experimentos de classificação.
 - `Dados/`: datasets pequenos usados nas aulas/experimentos.
-- `requirements.txt`: dependencias basicas.
+- `requirements.txt`: dependências básicas.
 
 ## Objetivo
 
-O repositorio cobre conceitos fundamentais:
+O repositório cobre conceitos fundamentais:
 
-- leitura e preparacao de dados;
-- separacao entre features e alvo;
+- leitura e preparação de dados;
+- separação entre features e alvo;
 - treino de modelos supervisionados;
-- comparacao de previsoes;
-- avaliacao inicial de desempenho;
-- uso pratico da API do Scikit-Learn.
+- comparação de previsões;
+- avaliação inicial de desempenho;
+- uso prático da API do Scikit-Learn.
 
 ## Como Executar
 
-Instale as dependencias:
+Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
@@ -35,4 +35,4 @@ jupyter notebook intro_classificacao.ipynb
 
 ## Escopo
 
-Este e um repositorio de fundamentos. Ele nao pretende ser uma aplicacao completa, mas sim um registro de aprendizado sobre classificacao e workflow basico de ML.
+Este é um repositório de fundamentos. Ele não pretende ser uma aplicação completa, mas sim um registro de aprendizado sobre classificação e workflow básico de ML.
